@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400, 700, 500);
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.list {
+    padding: 0;
+}
+
+#form-id {
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+form>input {
+    position: absolute;
+    display: inline-block;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    width: 598px;
+    height: 41px;
+}
+
+.check__button {
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    width: 600px;
+    height: 60px;
+    border-top: 1px solid #fff;
+}
+
+.text-item {
+    position: relative;
+    display: inline-block;
+    right: 6px;
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 60px;
+    color: #000;
+}
+
+.check__button input {
+    position: relative;
+    width: 60px;
+}
+
+.button {
+    position: relative;
+    left: 410px;
+    top: 9px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    background: #26a59a;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.color1 {
+    background: #f16d69;
+}
+
+.color2 {
+    background: #f279a2;
+}
+
+.color3 {
+    background: #9170cb;
+}
+
+.color4 {
+    background: #5eb3f6;
+}
+
+.color5 {
+    background: #67d7e5;
+}
+
+.color6 {
+    background: #ffe083;
+}
+
+.mini-button {
+    position: relative;
+    left: 400px;
+    top: 10px;
+    border-radius: 4px;
+    padding: 7px 7px;
+    display: inline-block;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.mini-button:focus {
+    border: 1px solid #cccccc;
+}
